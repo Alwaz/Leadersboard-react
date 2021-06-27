@@ -1,9 +1,9 @@
 /* #1c6f33 color */
-
 .header {
   display: flex;
   justify-content: space-between;
-  /* background-color: grey; */
+  margin-top: 10px;
+  font-family: CircularStd-Book, Helvetica, Arial, sans-serif;
 }
 
 .logo__heading {
@@ -17,9 +17,9 @@
   justify-content: space-evenly;
   align-items: center;
   margin-left: 5%;
-  background-color: hotpink;
   width: 12%;
-  font-family: CircularStd-Book, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 .header__logo img {
@@ -31,9 +31,9 @@
   justify-content: space-between;
   align-items: center;
   margin-right: 5%;
-  background-color: hotpink;
+  cursor: pointer;
   width: 20%;
-  font-family: CircularStd-Book, Helvetica, Arial, sans-serif;
+  font-size: 15px;
 }
 
 .header__options h4 {
@@ -43,8 +43,15 @@
 .login_btn {
   background-color: #1c6f33;
   color: #fff;
-  padding: 4px 17px 3px;
-  font-size: 12px;
+  padding: 6px 17px;
+  font-size: 15px;
   font-weight: 700;
   border: 1px solid #1c6f33;
+  cursor: pointer;
+  box-shadow: 3px 26px 163px -103px rgba(97, 82, 82, 0.62);
+  transition: 0.5s;
+}
+
+.login_btn:hover {
+  background-color: #135024;
 }
