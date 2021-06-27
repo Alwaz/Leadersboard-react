@@ -1,14 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Students/Names.css";
-import Scores from "./Scores";
 
-const Names = ({ name, university, score }) => {
+const Names = ({ name, university }) => {
+  const [score, setScore] = useState(0);
+
   return (
     <>
       <div className="names__main">
         <div className="students">
-          <h3>{name}</h3>
-          <p>{university}</p>
+          <div className="student__details">
+            <h3>{name}</h3>
+            <p>{university}</p>
+          </div>
+
+          <div className="add__score">
+            <button onClick={() => setScore(score + 1)}>
+              <i class="fas fa-plus-circle"></i>
+            </button>
+          </div>
         </div>
 
         <div className="score">

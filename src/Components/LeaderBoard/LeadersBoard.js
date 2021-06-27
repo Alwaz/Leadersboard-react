@@ -1,7 +1,6 @@
 import React from "react";
 import "../LeaderBoard/LeadersBoard.css";
 import Names from "../Students/Names";
-import Scores from "../Students/Scores";
 
 const LeadersBoard = () => {
   return (
@@ -19,27 +18,27 @@ const LeadersBoard = () => {
         <Names
           name="Alwaz Qazi"
           university="Mehran University of Engineering and Technology"
-          score="500"
+          score={500}
         />
-        <Names name="Muhammad Rizzan Imran" university="SZABIST" score="449" />
-        <Names name="Amnah Siddiqua" university="NUST CEME" score="446" />
+        <Names name="Muhammad Rizzan Imran" university="SZABIST" score={449} />
+        <Names name="Amnah Siddiqua" university="NUST CEME" score={446} />
         <Names
           name="Farhan Ullah"
           university="University of Malakand"
-          score="443"
+          score={443}
         />
         <Names
           name="Zakir Hussain"
           university="VU (BSCS 7th Semester)"
-          score="436"
+          score={436}
         />
-        <Names name="Adnan Merchant" university="SZABIST" score="420" />
+        <Names name="Adnan Merchant" university="SZABIST" score={420} />
         <Names
           name="Huzaifa Shahid"
           university="Bahria University Karachi Campus"
-          score="414"
+          score={414}
         />
-        <Names name="Ahmed ullah Sidiqui" university="SZABIST" score="413" />
+        <Names name="Ahmed ullah Sidiqui" university="SZABIST" score={413} />
       </div>
     </div>
   );
