@@ -1,7 +1,15 @@
+.names__main {
+  display: flex;
+  justify-content: space-between;
+}
 .students {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   line-height: 0px;
+}
+
+.students p {
+  color: #364962cc;
 }

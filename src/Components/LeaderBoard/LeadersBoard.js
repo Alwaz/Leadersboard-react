@@ -17,7 +17,13 @@ const LeadersBoard = () => {
 
       <div className="student">
         <Names />
-        <Scores />
+        <Names />
+        <Names />
+        <Names />
+        <Names />
+        <Names />
+        <Names />
+        <Names />
       </div>
     </div>
   );
