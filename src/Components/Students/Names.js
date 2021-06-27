@@ -2,7 +2,7 @@ import React from "react";
 import "../Students/Names.css";
 import Scores from "./Scores";
 
-const Names = ({ name, university }) => {
+const Names = ({ name, university, score }) => {
   return (
     <>
       <div className="names__main">
@@ -12,7 +12,7 @@ const Names = ({ name, university }) => {
         </div>
 
         <div className="score">
-          <Scores score={349} />
+          <h3 style={{ color: "#1c6f33" }}>{score}</h3>
         </div>
       </div>
     </>
