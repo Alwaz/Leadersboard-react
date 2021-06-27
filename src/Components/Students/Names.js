@@ -14,12 +14,9 @@ const Names = ({ name, university }) => {
           </div>
 
           <div className="add__score">
-            <button onClick={() => setScore(score + 1)}>
-              <i class="fas fa-plus-circle"></i>
-            </button>
+            <button onClick={() => setScore(score + 1)}>+</button>
           </div>
         </div>
-
         <div className="score">
           <h3 style={{ color: "#1c6f33" }}>{score}</h3>
         </div>

@@ -21,17 +21,22 @@
 .add__score button {
   background: red;
   border-radius: 50px;
-  padding: 8px;
-  font-size: 18px;
+  padding: 3px;
+  width: 42px;
+  font-size: 30px;
   display: flex;
+  cursor: pointer;
   justify-content: center;
   align-items: center;
   border: 1px solid red;
+  color: rgb(248, 239, 239);
+  transition: 0.5s;
 }
 
-.add__score button :hover {
+.add__score button:hover {
   background: #1c6f33;
   border: 1px solid #1c6f33;
+  color: #ffff;
 }
 
 .students p {
