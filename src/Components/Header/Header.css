@@ -1,0 +1,50 @@
+/* #1c6f33 color */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: grey; */
+}
+
+.logo__heading {
+  text-transform: uppercase;
+  color: #1c6f33;
+  letter-spacing: 3px;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 5%;
+  background-color: hotpink;
+  width: 12%;
+  font-family: CircularStd-Book, Helvetica, Arial, sans-serif;
+}
+
+.header__logo img {
+  width: 35px;
+}
+
+.header__options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5%;
+  background-color: hotpink;
+  width: 20%;
+  font-family: CircularStd-Book, Helvetica, Arial, sans-serif;
+}
+
+.header__options h4 {
+  color: #878787;
+}
+
+.login_btn {
+  background-color: #1c6f33;
+  color: #fff;
+  padding: 4px 17px 3px;
+  font-size: 12px;
+  font-weight: 700;
+  border: 1px solid #1c6f33;
+}
