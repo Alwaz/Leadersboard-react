@@ -2,20 +2,20 @@ import React from "react";
 import "../Students/Names.css";
 import Scores from "./Scores";
 
-const Names = () => {
+const Names = ({ name, university }) => {
   return (
     <>
-      <div className="names__main">
+      {/* <div className="names__main">
         <div className="students">
-          <h3>Alwaz Qazi</h3>
-          <p>Mehran University of Engineering and Technology</p>
+          <h3>{name}</h3>
+          <p>{university}</p>
         </div>
 
         <div className="score">
-          <Scores />
+          <Scores score={349} />
         </div>
       </div>
-    </>
+    </> */}
   );
 };
 
