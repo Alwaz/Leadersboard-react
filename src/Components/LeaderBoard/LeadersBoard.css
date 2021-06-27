@@ -23,6 +23,14 @@
 }
 
 .leaderBoard__names__scores p {
-  color: #878787;
+  color: rgba(54, 73, 98, 0.8);
   font-weight: 700;
+}
+
+.student {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
 }

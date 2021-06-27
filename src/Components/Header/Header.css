@@ -46,10 +46,11 @@
   padding: 6px 17px;
   font-size: 15px;
   font-weight: 700;
-  border: 1px solid #1c6f33;
-  cursor: pointer;
-  box-shadow: 3px 26px 163px -103px rgba(97, 82, 82, 0.62);
   transition: 0.5s;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #1c6f33;
+  box-shadow: 3px 26px 163px -103px rgba(97, 82, 82, 0.62);
 }
 
 .login_btn:hover {

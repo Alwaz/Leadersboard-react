@@ -1,5 +1,7 @@
 import React from "react";
 import "../LeaderBoard/LeadersBoard.css";
+import Names from "../Students/Names";
+import Scores from "../Students/Scores";
 
 const LeadersBoard = () => {
   return (
@@ -9,8 +11,13 @@ const LeadersBoard = () => {
       </div>
 
       <div className="leaderBoard__names__scores">
-        <p>Names</p>
-        <p>scores</p>
+        <p>Name</p>
+        <p>Score</p>
+      </div>
+
+      <div className="student">
+        <Names />
+        <Scores />
       </div>
     </div>
   );
