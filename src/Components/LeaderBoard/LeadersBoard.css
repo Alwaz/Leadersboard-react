@@ -1,0 +1,28 @@
+.leaderBoard {
+  max-width: 100%;
+}
+
+.leaderBoard__heading {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.leaderBoard__heading h1 {
+  max-width: 100%;
+  font-size: 3.375rem;
+  line-height: 1.12;
+  font-weight: lighter;
+}
+
+.leaderBoard__names__scores {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: space-between;
+}
+
+.leaderBoard__names__scores p {
+  color: #878787;
+  font-weight: 700;
+}
