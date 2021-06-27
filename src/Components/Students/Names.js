@@ -5,7 +5,7 @@ import Scores from "./Scores";
 const Names = ({ name, university }) => {
   return (
     <>
-      {/* <div className="names__main">
+      <div className="names__main">
         <div className="students">
           <h3>{name}</h3>
           <p>{university}</p>
@@ -15,7 +15,7 @@ const Names = ({ name, university }) => {
           <Scores score={349} />
         </div>
       </div>
-    </> */}
+    </>
   );
 };
 
