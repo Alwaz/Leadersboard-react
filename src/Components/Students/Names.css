@@ -18,6 +18,22 @@
   align-items: flex-start;
 }
 
+.add__score button {
+  background: red;
+  border-radius: 50px;
+  padding: 8px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.add__score button :hover {
+  background: #1c6f33;
+  border: 1px solid #1c6f33;
+}
+
 .students p {
   color: #364962cc;
 }
